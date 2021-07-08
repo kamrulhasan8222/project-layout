@@ -1,0 +1,272 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* site default css */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    font-size: 1.4rem;
+    display: inline-block;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #F77E34F2, #FB3A11);
+    color: #fff;
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 15px 4px #ff6f0c;
+    transition: 0.6s all ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #F65431, #F77E34F2);
+    transition: 0.6s all ease;
+}
+
+
+/* 01 Header part css */
+
+.main-header {
+    display: flex;
+    padding: 10rem 0 0 2rem;
+}
+
+.main-header-left {
+    padding-top: 10rem;
+}
+
+.main-header-left>* {
+    margin-bottom: 4rem;
+}
+
+.header-left-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #575757;
+    text-transform: capitalize;
+}
+
+.heading-color-change {
+    color: #fb934a;
+}
+
+.header-left-paragraph {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #828282;
+    width: 85%;
+}
+
+.main-header-right-image {
+    width: 100%;
+}
+
+
+/* Header section Css ends */
+
+
+/* 02 About me section css */
+
+.about-me {
+    display: flex;
+    background-image: url('../images/aboutme-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 5rem 15rem 0 15rem;
+}
+
+.about-me-left-image {
+    width: 30rem;
+}
+
+.about-me-right {
+    padding: 10rem 0 0 20rem;
+}
+
+.about-me-right>* {
+    margin-bottom: 4rem;
+}
+
+.about-me-right-header {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #828282;
+}
+
+.about-me-right-text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #575757;
+    width: 80%;
+}
+
+
+/* About me section css Ends */
+
+
+/* 03 Blog section Css starts */
+
+.blog-title {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.blog-title>* {
+    margin-bottom: 3rem;
+}
+
+.blog-title-headin {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #575757;
+}
+
+.blog-title-text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #828282;
+    width: 60%;
+    display: inline-block;
+}
+
+.blog-box {
+    padding: 5rem;
+    display: flex;
+}
+
+.blog-box-item {
+    width: 33%;
+    padding: 2rem;
+    box-shadow: 1px 1px 15px #3c3a3a;
+    border-radius: 3rem;
+    transition: 0.6s all ease;
+}
+
+.blog-box-item:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.blog-box-item>* {
+    margin-bottom: 1rem;
+}
+
+.blog-box-item:hover {
+    transform: scale(1.1);
+    transition: 0.6s all ease;
+}
+
+.blog-box-item-image {
+    width: 100%;
+}
+
+.blog-box-item-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.bolg-box-item-text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+
+/* Blog Section Css Ends*/
+
+
+/* 04 Subscribe section Css */
+
+.subscribe {
+    display: flex;
+    margin: 5rem 0 5rem 7rem;
+    box-shadow: 1px 1px 15px #2d2b2b;
+    border-radius: 1.2rem;
+}
+
+.subscribe-item {
+    width: 33%;
+    padding: 2rem 3rem;
+    justify-content: center;
+    display: grid;
+}
+
+.subscribe-itme-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.subscribe-item-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #575757;
+    text-transform: capitalize;
+}
+
+
+/* Subscribe section css ends  */
+
+
+/* 05 footer section css starts */
+
+.footer {
+    background: #0B0D17;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.footer-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #5b5b5b;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.footer-color-changed {
+    color: #fb994c;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+    display: block;
+}
